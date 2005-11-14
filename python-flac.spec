@@ -36,6 +36,8 @@ python setup.py install \
 	--optimize=2 \
 	--root $RPM_BUILD_ROOT
 
+rm -f $RPM_BUILD_ROOT%{py_sitedir}/flac/*.py
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
