@@ -1,6 +1,6 @@
 %define		module	pyflac
 Summary:	A Python module for the FLAC library
-Summary(pl):	Modu≥ Pythona do biblioteki FLAC
+Summary(pl.UTF-8):   Modu≈Ç Pythona do biblioteki FLAC
 Name:		python-%{module}
 Version:	0.0.4
 Release:	1
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A Python module for the the FLAC library.
 
-%description -l pl
-Modu≥ Pythona do biblioteki FLAC.
+%description -l pl.UTF-8
+Modu≈Ç Pythona do biblioteki FLAC.
 
 %prep
 %setup -q -n %{module}-%{version}
