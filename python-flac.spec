@@ -1,6 +1,6 @@
 %define		module	pyflac
 Summary:	A Python module for the FLAC library
-Summary(pl.UTF-8):   Moduł Pythona do biblioteki FLAC
+Summary(pl.UTF-8):	Moduł Pythona do biblioteki FLAC
 Name:		python-%{module}
 Version:	0.0.4
 Release:	1
