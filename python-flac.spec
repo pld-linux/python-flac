@@ -12,7 +12,7 @@ URL:		http://www.sacredchao.net/~piman/
 BuildRequires:	flac-devel
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.174
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	swig-python
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
